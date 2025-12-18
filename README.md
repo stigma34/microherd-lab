@@ -1,6 +1,6 @@
 # Microherd Lab Auto Start/Stop
 
-This is what I use to automatically start/stop my lab environment every day.  I needed something to manage the automatic starting and stopping of my entire lab so I'm not burning electricity all night long.  Feel free to fork and expand for your own personal use if you want.
+This is what I use to automatically start/stop my lab environment every day inside my Harvester node.  I needed something to manage the automatic starting and stopping of my entire lab so I'm not burning electricity all night long.  Feel free to fork and expand for your own personal use if you want.
 
 ## Configuration
 
