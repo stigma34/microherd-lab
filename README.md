@@ -18,6 +18,8 @@ This is what I use to automatically start/stop my lab environment every day insi
 
 I named my Rancher vm `rancher`, so you may need to change that too in the .sh files (or comment out that section if you don't need it...or delete it, doesn't really matter)
 
+In the `start-lab.sh`, you may want to change the path for `KUBECONF` too.
+
 ```terminal
 harvester:/opt # systemctl list-timers start-lab stop-lab
 NEXT                        LEFT     LAST                        PASSED    UNIT            ACTIVATES        
