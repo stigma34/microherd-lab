@@ -1,0 +1,10 @@
+[Unit]
+Description=Start microherd lab - Daily
+
+[Service]
+Type=oneshot
+Environment="KUBECONFIG=/etc/rancher/rke2/rke2.yaml
+ExecStart=/opt/lab_start.sh
+
+[Install]
+WantedBy=multiuser.target
