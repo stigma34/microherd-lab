@@ -1,0 +1,10 @@
+[Unit]
+Description=Start lab every morning
+
+[Timer]
+# 1200 UTC == 0600 Central
+OnCalendar=*-*-* 12:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
