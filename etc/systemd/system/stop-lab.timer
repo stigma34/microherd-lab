@@ -1,0 +1,10 @@
+[Unit]
+Description=Stop lab every evening
+
+[Timer]
+# 0000 UTC == 1800 Central
+OnCalendar=*-*-* 00:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target
